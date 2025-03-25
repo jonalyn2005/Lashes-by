@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav__ul li {
+    margin: 0 10px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+ 
