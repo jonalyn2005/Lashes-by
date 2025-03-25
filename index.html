@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__overley"></div>
+        <div class="header__item-container">
+          <h1><span>L</span>ashes BY</h1>
+          <p class="presentacion">
+            Bienvenidos a Lashes By! El lugar donde tu mirada cobra vida con nuestras exclusivas extensiones de pestañas y otros servicios de belleza personalizados. En Lashes By, nos dedicamos a realzar tu belleza natural para que te sientas más segura y deslumbrante cada día.
+          </p>
+        </div>
+      </header>
+
+      <!-- navegador -->
+
+      <nav class="nav">
+        <div class="nav__ul-container">
+          <ul class="nav__ul">
+            <li class="nav__item"><a href="#" class="nav__link">home</a></li>
+            <li class="nav__item"><a href="carrito.html" class="nav__link">carrito</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">contact</a></li>
+            <li class="nav__item"><a href="#" class="nav__link link--login">log in</a></li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+
+         <!-- Sección de la Galería de Fotos -->
+         <section id="galeria">
+            <h2><span>R</span>eferencias</h2>
+            <div class="gallery-container">
+              <div class="gallery-slide" id="gallerySlide">
+                <img src="6.jpg" alt="Foto 1">
+                <img src="Promo-Clasicas-1-600x600.webp" alt="Foto 2">
+                <img src="hola.jpg" alt="Foto 3">
+                <img src="8.jpg" alt="Foto 3">
+               
+              
+              </div>
+              <button class="prev" onclick="prevSlide()">&#10094;</button>
+              <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+          </section>
+        </main>
+
+        <!-- Sección del Sistema de Compras -->
+
+        <section id="productos">
+          <h2><span>P</span>estañas BY</h2>
+          <div class="products">
+            <div class="product">
+              <h3>CLASICAS</h3>
+              <img src="clasicas.jpg" alt="Producto 1">
+              <p>$400</p>
+              <button onclick="agregarAlCarrito('Producto 1', 400)">Agregar al carrito</button>
+            </div>
+            <div class="product">
+              <h3>HIBRIDAS</h3>
+              <img src="hibridas.jpg" alt="Producto 2">
+              <p>$550</p>
+              <button onclick="agregarAlCarrito('Producto 2', 550)">Agregar al carrito</button>
+            </div>
+            <div class="product">
+              <h3>WISPY</h3>
+              <img src="wispy.jpg" alt="Producto 3">
+              <p>$550</p>
+              <button onclick="agregarAlCarrito('Producto 3', 550)">Agregar al carrito</button>
+            </div>
+        </section>
+    
+       
+
+      <!-- pie de pagina-->
+
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-info">
+            <p>&copy; 2025 Mi Página Web</p>
+          </div>
+          <div class="footer-links">
+            <a href="#">Sobre nosotros</a> |
+            <a href="#">Política de privacidad</a> |
+            <a href="#">Contacto</a>
+          </div>
+        </div>
+      </footer>
+     <script src="java.js"></script>
+</body>
+</html>
